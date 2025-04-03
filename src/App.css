@@ -1,4 +1,4 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -38,5 +38,19 @@
 }
 
 .read-the-docs {
-  color: #888;
+  color: #888; */
+/* } */
+#header{
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 100%;
+  margin-top: -100%;
+  gap: 20%;
 }
+
+.nav{
+  display: flex;
+  gap: 20%;
+  
+  }
