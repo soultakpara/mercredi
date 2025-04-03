@@ -40,3 +40,115 @@
 .read-the-docs {
   color: #888;
 }
+
+.sidebar{
+  width: 250px;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 20px;
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
+} 
+
+.sidebar ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.sidebar ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  padding: 10px;
+  transition: 0.5 ease;
+
+}
+
+.sidebar ul li a:hover {
+  background-color: #1c4a77;
+  border-radius: 5px;
+}
+
+#contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  margin: 0 auto;
+  box-shadow: 0 .5rem 1.5rem rgba(0,0,0,0.5);
+  padding: 80px;
+  background-color: #9aece8;
+  /* margin-top: 1rem; */
+  border-radius: 10px;
+  gap: 20px;
+  transition: all 1.2s ease;
+  margin-right: 20px;
+
+
+}
+
+input{
+  width: 100%;
+  height: 35px;
+  box-shadow: 0px 1px 2px rgba(0,0,0,0.5);
+  border-radius: 3px;
+  border-color: rgba(0, 0, 0, 0.3);
+  
+}
+
+label{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 120%;
+  font-weight: bold;
+  
+}
+
+#ok{
+  width: 100%;
+  height: 95px;
+  box-shadow: 0px 1px 2px rgba(0,0,0,0.5);
+  border-radius: 3px;
+  border-color: rgba(0, 0, 0, 0.3);
+}
+
+button{
+  margin-top: 15px;
+  width: 65%;
+  background-color: blue;
+  height: 45px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+  transition: all 0.9s ease;
+  
+}
+
+button:hover{
+  background-color: blueviolet;
+  padding: 10px ;
+  width: 100%;
+  text-transform: uppercase;
+  color: white;
+  
+
+} 
+
+.en{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: center;
+  
+} 
