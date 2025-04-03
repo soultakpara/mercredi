@@ -44,7 +44,7 @@
 .sidebar{
   width: 250px;
   height: 100vh;
-  background-color: black;
+  background-color: rgb(86, 2, 2);
   color: white;
   position: fixed;
   top: 0;
@@ -75,7 +75,7 @@
 }
 
 .sidebar ul li a:hover {
-  background-color: #1c4a77;
+  background-color: #1c5691;
   border-radius: 5px;
 }
 
@@ -87,7 +87,7 @@
   margin: 0 auto;
   box-shadow: 0 .5rem 1.5rem rgba(0,0,0,0.5);
   padding: 80px;
-  background-color: #9aece8;
+  background-color: rgb(23, 2, 90);
   /* margin-top: 1rem; */
   border-radius: 10px;
   gap: 20px;
@@ -110,6 +110,7 @@ label{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 120%;
   font-weight: bold;
+  color: white;
   
 }
 
@@ -152,3 +153,16 @@ button:hover{
   position: center;
   
 } 
+
+h1{
+  color: #fff;
+}
+
+label{
+  gap: 10px;
+}
+
+.géneral{
+  display: block;
+  gap: 111px;
+}
