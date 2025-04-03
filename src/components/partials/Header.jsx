@@ -15,11 +15,8 @@ function Header() {
     <div className='form'><a href="#form">Form</a></div>
     <div className='menu'> <a href="#sidebar">Menu</a></div>
     </div>
-    
     </header>
-   
- 
-   
+      
     </> 
     
   )
