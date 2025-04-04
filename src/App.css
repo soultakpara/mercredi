@@ -237,7 +237,7 @@ button:hover{
   border-radius: 5px;
 }
 
-button {
+.sub{
   padding: 10px;
   margin-top: 10px;
   border: none;
@@ -245,12 +245,12 @@ button {
   cursor: pointer;
 }
 
-button:first-of-type {
+.sub:first-of-type {
   background-color: #28a745;
   color: white;
 }
 
-button:last-of-type {
+.sub:last-of-type {
   background-color: #dc3545;
   color: white;
   margin-left: 10px;

@@ -1,6 +1,7 @@
 import React from 'react'
-import "../../App.css"
-import "../../assets/images/OIF.jpg"
+import "../../App.css";
+import "../../assets/images/OIF.jpg";
+
 
 function Header() {
   return (
