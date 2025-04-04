@@ -132,6 +132,25 @@
   padding: 80px;
   background-color: #9aece8;
   /* margin-top: 1rem; */
+
+  #header{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100%;
+    margin-top: -100%;
+    gap: 20%;
+  }
+  
+  .nav{
+    display: flex;
+    gap: 20%;
+    
+    }
+  
+    h2{
+      text-align: center;
+    }
   
 
 input{
