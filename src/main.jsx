@@ -4,7 +4,8 @@ import './index.css'
 import Home from './Home'
 
 createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  <StrictMode>
     <Home />
-  </React.StrictMode>
+
+  </StrictMode>
 )

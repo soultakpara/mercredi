@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import "../App.css";
+import "../App.css"; 
+//import Header from "./partials/Header";
 
 function Profil({ user, setUser }) {
   const [editMode, setEditMode] = useState(false);
@@ -17,6 +18,10 @@ function Profil({ user, setUser }) {
   if (!user) return <p>Chargement du profil...</p>;
 
   return (
+
+    <>
+    
+    
     <div className="profil-container">
       <h2>Profil Utilisateur</h2>
 
@@ -50,6 +55,9 @@ function Profil({ user, setUser }) {
         </form>
       )}
     </div>
+
+    
+    </>
   );
 }
 

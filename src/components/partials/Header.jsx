@@ -1,20 +1,20 @@
 import React from 'react'
-import "../../App.css";
-import "../../assets/images/OIF.jpg";
-
-
+import "../../App.css"
+import "../../assets/images/OIF.jpg"
+import { Link } from 'react-router-dom'
+//<div className='menu'> <Link to= "/menu">Menu</Link></div>
 function Header() {
   return (
     <>
+    
     <header id='header'>
     <div><img src="../assets/images/OIF.jpg" alt="logo OIF"  height={150}/></div>
     <div className='nav'>
 
-      <a href=""></a>
-    <div className='accueil'><a href="#accueil">Acceuil</a></div>
-    <div className='profil'><a href="#profil">Profil</a> </div>
-    <div className='form'><a href="#form">Form</a></div>
-    <div className='menu'> <a href="#sidebar">Menu</a></div>
+    <div className='accueil'><Link to="/" >Acceuil</Link></div>
+    <div className='profil'><Link to= "/profil">Profil</Link> </div>
+    <div className='form'><Link to="/form">Form</Link></div>
+    
     </div>
     </header>
       

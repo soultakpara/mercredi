@@ -5,6 +5,13 @@ import Footer from "./components/partials/Footer";
 // import Header from "./components/partials/Header";
 
 import { UserContext } from "./context/UserContext";
+import React from 'react'
+import { BrowserRouter as   Router, Routes, Route } from 'react-router-dom'
+import Accueil from './components/Accueil'
+import Profil from "./components/Profil"
+import Form from "./components/Form"
+// import Footer from './components/partials/Footer'
+//<Route path='/menu' element= {<Menu />}/>
 
 function Home() {
   const [user, setUser] = useState(null);
@@ -23,6 +30,8 @@ function Home() {
   }, []);
 
   return (
+  
+    <>
     <UserContext.Provider value={user}>
       <div className="App">
         <h1>Bienvenue sur Project Mercredi 👋</h1>
@@ -30,7 +39,18 @@ function Home() {
         <Footer title="Project Mercredi" author="Ibra Fashion" year={2024} />
       </div>
     </UserContext.Provider>
-  );
+    <Router>
+      <Routes>
+        <Route path='/' element= {<Accueil />}/>
+        <Route path='/profil' element= {<Profil />}/>
+        <Route path='/form' element= {<Form />}/>
+      </Routes>
+    </Router>
+      {/* <Profil />
+      <Footer /> */}
+
+    </>
+  )
 }
 
 export default Home;
