@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../App.css"; // Assure-toi d'avoir un fichier CSS pour le style
+import Header from "./partials/Header";
 
 function Profil() {
   // État pour stocker les informations du profil
@@ -41,6 +42,10 @@ function Profil() {
   };
 
   return (
+
+    <>
+    
+    
     <div className="profil-container">
       <h2>Profil Utilisateur</h2>
       
@@ -78,6 +83,9 @@ function Profil() {
         <p>Chargement du profil...</p>
       )}
     </div>
+
+    
+    </>
   );
 }
 

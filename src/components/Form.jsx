@@ -1,7 +1,10 @@
 import React from 'react'
+import Header from './partials/Header'
 
 function Form() {
   return (
+
+    <>
     <section>
         <form id="contact">
             <div class="form">
@@ -33,6 +36,9 @@ function Form() {
                 </div>
         </form>
     </section>
+    
+    
+    </>
     
   )
 }
