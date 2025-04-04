@@ -189,3 +189,117 @@ button:hover{
   position: center;
   
 } 
+
+/* --- Profil --- */
+.profil-container {
+  width: 70%;
+  margin: auto;
+  padding: 0 50px 0 50px;
+  border: 1px solid #080707;
+  border-radius: 10px;
+  background-color: #160e0e;
+  text-align: center;
+}
+
+.profil-info p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.profil-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.profil-form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:first-of-type {
+  background-color: #28a745;
+  color: white;
+}
+
+button:last-of-type {
+  background-color: #dc3545;
+  color: white;
+  margin-left: 10px;
+}
+
+
+/* --- FOOTER --- */
+footer {
+  background-color: #01040f;
+  color: white;
+  padding: 40px 0;
+  font-size: 14px;
+}
+
+
+.footer-container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+}
+  
+
+.footer-section {
+  width: 22%;
+  min-width: 200px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #ff4500;
+  padding-bottom: 5px;
+}
+
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+.footer-section ul li a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #ff4500;
+}
+
+.footer-section p {
+  margin: 5px 0;
+}
+
+
+.footer-section a {
+  color: #ff4500;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+/* Icônes sociales */
+.social-icons a {
+  margin-right: 10px;
+}
